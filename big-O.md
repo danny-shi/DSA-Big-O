@@ -201,9 +201,9 @@ Rod A | Rod B | Rod C
 Output:
 Rod A | Rod B | Rod C
 ------------ | ------------- | -------------
-| | ----
-| | ---------
-| | -------------
+| | | ----
+| | | ---------
+| | | -------------
 
 - Derive an algorithm to solve the Tower of Hanoi puzzle.
 - Implement your algorithm using recursion. Your program should display each movement of the disk from one rod to another.
