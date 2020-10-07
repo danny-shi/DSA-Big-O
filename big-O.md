@@ -6,7 +6,7 @@
    You stand up and yell out, who here has a golden retriever and would like to be a playdate for my golden.
    Someone yells - "I do, be happy to bring him over"
 
-Big O: O(1), You are only selecting one person from the entire group.
+- _Big O_: O(1), You are only selecting one person from the entire group.
 
 2. Determine the Big O for the following algorithm:
    You are sitting in a room with 15 people. You want to find a playmate for your dog who is of the same breed.
@@ -14,7 +14,7 @@ Big O: O(1), You are only selecting one person from the entire group.
    You start with the first person and ask him if he has a golden retriever.
    He says no, then you ask the next person, and the next, and the next until you find someone who has a golden or there is no one else to ask.
 
-Big O: O(n), You are iterating over each person in the group.
+- **Big O**: O(n), You are iterating over each person in the group.
 
 ## 2. Even or odd?
 
@@ -30,7 +30,7 @@ function isEven(value) {
 }
 ```
 
-Big O: O(1), You are checking the value exactly one time.
+**Big O**: O(1), You are checking the value exactly one time.
 
 ## 3. Are you here?
 
@@ -49,7 +49,7 @@ function areYouHere(arr1, arr2) {
 }
 ```
 
-Big O: O(n^2), Nested for loop.
+**Big O**: O(n^2), Nested for loop.
 
 ## 4. Doubler
 
@@ -64,7 +64,7 @@ function doubleArrayValues(array) {
 }
 ```
 
-Big O: O(n), One iterative loop. Grows linearly with size of the array.
+**Big O**: O(n), One iterative loop. Grows linearly with size of the array.
 
 ## 5. Naive Search
 
@@ -80,7 +80,7 @@ function naiveSearch(array, item) {
 }
 ```
 
-Big O: O(n), Linear search through array.
+**Big O**: O(n), Linear search through array.
 
 ## 6. Creating pairs
 
@@ -96,7 +96,7 @@ function createPairs(arr) {
 }
 ```
 
-Big O: O(n^2), Nested for loop.
+**Big O**: O(n^2), Nested for loop.
 
 ## 7. Compute the sequence
 
@@ -121,6 +121,6 @@ function compute(num) {
 }
 ```
 
-Algorithm: Loop linearly through the result array. On the first iteration, push 0 to the array. Push 1 to the array on the second iteration. Afterwards, it pushes the next value in the fibonacci sequence.
+_Algorithm_: Loop linearly through the result array. On the first iteration, push 0 to the array. Push 1 to the array on the second iteration. Afterwards, it pushes the next value in the fibonacci sequence.
 
-Runtime complexity: O(n)
+_Runtime complexity_: O(n)
