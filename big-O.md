@@ -6,7 +6,7 @@
    You stand up and yell out, who here has a golden retriever and would like to be a playdate for my golden.
    Someone yells - "I do, be happy to bring him over"
 
-- _Big O_: O(1), You are only selecting one person from the entire group.
+- **Big O**: O(1), You are only selecting one person from the entire group.
 
 2. Determine the Big O for the following algorithm:
    You are sitting in a room with 15 people. You want to find a playmate for your dog who is of the same breed.
